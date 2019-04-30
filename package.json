@@ -1,0 +1,27 @@
+{
+  "name": "nodesockets",
+  "version": "1.0.0",
+  "description": "A NodeJs, socket absed webserver",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjunamrith/nodesockets.git"
+  },
+  "keywords": [
+    "socket",
+    "node",
+    "server"
+  ],
+  "author": "Amrithnath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arjunamrith/nodesockets/issues"
+  },
+  "homepage": "https://github.com/arjunamrith/nodesockets#readme",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  }
+}
