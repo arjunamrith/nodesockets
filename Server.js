@@ -6,6 +6,6 @@ console.log(`Server running on ${port}`)
 wss.on('connection',ws=>{
     ws.on('message',message=>{
         console.log(`received message=>${message}`)
+        ws.send('hello client')
     })
-    ws.send('hello client')
 })
